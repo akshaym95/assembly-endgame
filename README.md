@@ -32,10 +32,12 @@ Assembly Endgame is a unique twist on the classic hangman game where players gue
 ## 🛠️ Technologies Used
 
 - **React 19.1.0** - Modern React with hooks and functional components
+- **JavaScript ES6+** - Modern JavaScript features including async/await, destructuring, and arrow functions
 - **Vite 7.0.4** - Fast build tool and development server
 - **CSS3** - Custom styling with flexbox and grid layouts
-- **JavaScript ES6+** - Modern JavaScript features
 - **React Confetti** - Celebration effects for winning
+- **State Management** - React hooks (useState, useEffect) for game state
+- **Component Architecture** - Modular React components with props and event handling
 
 ## 🚀 Getting Started
 
@@ -101,14 +103,16 @@ assembly-endgame/
 
 ### Core Game Logic
 - **Word Selection**: Random selection from 18 programming languages
-- **Guess Tracking**: Tracks correct and incorrect letter guesses
-- **Game State Management**: Win/lose conditions and game reset functionality
+- **Guess Tracking**: Tracks correct and incorrect letter guesses using React state
+- **Game State Management**: Win/lose conditions and game reset functionality with useEffect hooks
+- **Event Handling**: Interactive keyboard with click events and visual feedback
 
 ### Visual Elements
-- **Programming Language Cards**: Colorful cards representing different languages
-- **Skull Animation**: Cards transform with skull emojis for wrong guesses
-- **Virtual Keyboard**: Interactive letter selection with visual feedback
-- **Word Display**: Underscore placeholders that reveal letters when guessed
+- **Programming Language Cards**: Colorful cards representing different languages with dynamic styling
+- **Skull Animation**: Cards transform with skull emojis for wrong guesses using CSS pseudo-elements
+- **Virtual Keyboard**: Interactive letter selection with visual feedback and disabled states
+- **Word Display**: Underscore placeholders that reveal letters when guessed with conditional rendering
+- **Responsive Design**: Flexbox and CSS Grid layouts for cross-device compatibility
 
 ## 🎯 Programming Languages Included
 
